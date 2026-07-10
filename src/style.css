@@ -1,0 +1,90 @@
+/*/*Banner*/
+.banner {
+     background-color: rgb(131, 95, 128);
+     color: #000;
+     padding-left: 250px;
+      position: relative; /* allows overlay positioning */
+}
+/*Profile Row */
+.profile{
+    display: flex;
+    align-items: flex-start;
+    background: white;  /* dark browm*/
+    color: black;
+    padding: 0px 20px 20px 20px;
+    position: relative;
+}
+.profilephoto{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    position: absolute;
+    top: -70px; /* moves photo upwards into banner */
+    left:40px ;  /* position photo inside the brown section */
+}
+/*Contact Info*/
+.contact-info{
+    margin-left: 230px; /* pushes text to the right of the photo */
+}
+.contact-info h2{
+    margin-top: 0.1px;
+    margin-bottom: 0px;
+}
+/* Section*/
+section{
+    max-width: 900px;
+    margin: 30px auto;
+    padding:  20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+section h2{
+    color: hsl(299, 23%, 52%);
+    border-bottom: 2px solid  hsl(299, 23%, 52%);
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+}
+/*footer*/
+footer{
+     text-align: center;
+     background: #6f2dc1;
+     color: #000;
+     padding: 15px;
+     margin-top: 40px;
+}
+.img2{
+    width: 250px;
+    height: 250px;
+    margin: 35px;
+}
+.img3{
+    width: 250px;
+    height: 250px;
+    margin: 35px;
+}
+.img4{
+    width: 250px;
+    height: 250px;
+    margin: 35px;
+}
+.F1{
+    color: rgb(63, 145, 145);
+}
+.F2{
+    color: rgb(63, 145, 145);
+}
+.F3{
+    color: rgb(63, 145, 145);
+}
+.F4{
+    color: rgb(63, 145, 145);
+}
+.F5{
+    color: rgb(63, 145, 145);
+}
+.C9{    color: rgb(63, 145, 145);
+
+
+
